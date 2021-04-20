@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'mapbox-swift-poc' do
+  pod 'Mapbox-iOS-SDK', '~> 6.3.0'
+end
