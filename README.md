@@ -25,8 +25,9 @@ Then run the mobile app from xcode:
 
 Then you will see a UI with a bunch of buttons.
 
+1. Click "Reset" to ensure database is in a clean state
 1. Click "Download z0"
 
-    > observe 200+ features downloaded in xcode log (expected 1 tile)
+    > observe 500+ features downloaded in xcode log (expected 1 tile)
 
     > observe a z9 tile download in api log (expected only z0 tiles requested)
