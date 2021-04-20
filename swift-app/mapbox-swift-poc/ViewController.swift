@@ -19,7 +19,7 @@ extension UIButton {
 class ViewController: UIViewController {
 
     let packName = "offline-test-pack";
-    let styleURL = URL(string: "http://localhost/styles.json")
+    let styleURL = URL(string: "http://localhost:3000/styles.json")
 
     var resetButton: UIButton = UIButton()
     var downloadButton: UIButton = UIButton()
